@@ -12,8 +12,6 @@ var gulp       = require('gulp'), // Подключаем Gulp
 	autoprefixer = require('gulp-autoprefixer'),// Подключаем библиотеку для автоматического добавления префиксов
 	notify				= require('gulp-notify');
 
-console.log('hello world');
-
 gulp.task('common-js', function() {
 	return gulp.src([
 		'app/js/common.js',
