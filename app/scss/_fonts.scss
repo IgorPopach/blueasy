@@ -1,0 +1,7 @@
+@import "_mixins/font-face";
+
+@include font-face("SegoeUI-ex", "../fonts/SegoeUIRegular/SegoeUIRegular");
+@include font-face("SegoeUI-ex", "../fonts/SegoeUIBold/SegoeUIBold", bold);
+@include font-face("SegoeUI-ex", "../fonts/SegoeUISemiBold/SegoeUISemiBold", 600);
+@include font-face("SegoeUI-ex", "../fonts/SegoeUILight/SegoeUILight", 300);
+@include font-face("MyriadPro-ex", "../fonts/MyriadProRegular/MyriadProRegular");
