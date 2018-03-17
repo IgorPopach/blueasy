@@ -8,9 +8,116 @@ body {
 	font-family: $default-font;
 	overflow-x: hidden;
 	opacity: 1;
+	background-color: $grey;
+	margin: 0;
+	padding: 0;
 }
 
 .site-header{
-	min-height: 700px;
+	height: 1205px;
+	width: 1920px;
 	background-image: url("../img/top-bg.jpg");
+	background-repeat: no-repeat;
+	text-transform: uppercase;
+	color: #ffffff;
+	outline: 1px solid #4169E1;
 }
+
+.header{
+	height: 150px;
+	width: 1920px;
+	background-color: $grey;
+	opacity: 0.85;
+	font-weight: bold;
+}
+
+.header th{
+	vertical-align: middle;
+	width: 960px;
+	outline: 1px solid #4169E1;
+}
+
+.blueasy{
+	font-size: 40px;
+}
+
+
+ul {
+		list-style-type: none;
+		text-align: left;
+		padding-left: 55px;
+}
+
+li {
+    display: inline;
+    font-size: 18px;
+    padding: 25px;
+    outline: 1px solid #4169E1;
+}
+
+th p span{
+	color: $accent;
+}
+
+.mainText{
+	margin-top: 250px;
+	height: 400px;
+	font-size: 56px;
+	font-weight: 300;
+	text-align: center;
+	
+}
+
+h2{
+	font-size: 56px;
+	font-weight: 300;
+	margin: 0;
+	line-height:1.5;
+}
+
+h2 span{
+	background-color: $grey;
+	padding: 0 25px;
+}
+
+.main-footer p{
+	font-weight: 300;
+	font-size: 40px;
+	position:relative;
+	left: 382px;
+	margin: 0;
+}
+
+.main-footer p span{
+	border-bottom: 2px solid;
+}
+
+.main-footer{
+	height: 405px;
+	width: 1920px;
+	background-color: $accent;
+}
+
+.main-footer table{
+	height: 200px;
+	width: 1160px;
+}
+
+.main-footer td, th{
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1;
+  text-align: left;
+  width: 270px;
+}
+
+
+#mainFootText{
+	font-size: 12px;
+	height: 66px;
+	line-height: 1.5;
+	text-transform: none;
+}
+
+  
