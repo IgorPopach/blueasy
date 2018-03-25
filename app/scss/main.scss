@@ -1,10 +1,9 @@
 
 
 body {
-	font-size: 16px;
+	font-size: 14px;
 	min-width: 320px;
 	position: relative;
-	line-height: 1.75;
 	font-family: $default-font;
 	overflow-x: hidden;
 	opacity: 1;
@@ -13,53 +12,69 @@ body {
 	padding: 0;
 }
 
-.site-header{
+.site-header {
 	height: 1205px;
 	width: 1920px;
 	background-image: url("../img/top-bg.jpg");
 	background-repeat: no-repeat;
 	text-transform: uppercase;
 	color: #ffffff;
-	outline: 1px solid #4169E1;
+	/*outline: 1px solid #4169E1;*/
 }
 
-.header{
-	height: 150px;
-	width: 1920px;
+.mainHeader {
+	height: 30px;
+	width: 1170px;
 	background-color: $grey;
 	opacity: 0.85;
 	font-weight: bold;
+	padding: 60px 375px;
 }
 
-.header th{
-	vertical-align: middle;
-	width: 960px;
-	outline: 1px solid #4169E1;
+.mainHeader nav a {
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 30px;
+	font-weight: bold;
+	padding: 5px 15px;
+	margin-left: 15px;
+	border: 1px solid #fff transparent;
+	transition: all 0.35s ease;
+	color: #fff;
 }
 
-.blueasy{
-	font-size: 40px;
+.mainHeader nav a:visited {
+	color: #fff;
 }
 
-
-ul {
-		list-style-type: none;
-		text-align: left;
-		padding-left: 55px;
-}
-
-li {
-    display: inline;
-    font-size: 18px;
-    padding: 25px;
-    outline: 1px solid #4169E1;
-}
-
-th p span{
+.mainHeader nav a:hover {
+	border: 1px solid $accent;
 	color: $accent;
 }
 
-.mainText{
+.mainHeader nav a:active {
+	border: 2px solid $accent;
+	color: $accent;
+	padding: 4px 14px;
+}
+
+.blueasy {
+	float: left;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	line-height: 30px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h1 span {
+	color: $accent;
+}
+
+.mainText {
 	margin-top: 250px;
 	height: 400px;
 	font-size: 56px;
@@ -68,56 +83,335 @@ th p span{
 	
 }
 
-h2{
-	font-size: 56px;
+h2 {
+	font-size: 42px;
 	font-weight: 300;
 	margin: 0;
 	line-height:1.5;
 }
 
-h2 span{
+h2 span {
 	background-color: $grey;
 	padding: 0 25px;
+	opacity: 0.85;
 }
 
-.main-footer p{
+h3 {
 	font-weight: 300;
-	font-size: 40px;
-	position:relative;
-	left: 382px;
-	margin: 0;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-top: 0;
+	line-height: 0.75;
 }
 
-.main-footer p span{
+#servises h3 {
+	margin-bottom: 50px;
+}
+
+h3 span {
 	border-bottom: 2px solid;
 }
 
-.main-footer{
+#servises {
 	height: 405px;
 	width: 1920px;
 	background-color: $accent;
+	padding: 80px 375px;
 }
 
-.main-footer table{
+#servises table {
 	height: 200px;
 	width: 1160px;
 }
 
-.main-footer td, th{
+#servises img {
+	align: left;
+}
+
+#servises td {
 	font-size: 24px;
 	font-weight: 600;
 	text-transform: uppercase;
 	line-height: 1;
   text-align: left;
-  width: 270px;
+  width: 290px;
 }
 
-
-#mainFootText{
+#servises .mainFootText {
 	font-size: 12px;
 	height: 66px;
 	line-height: 1.5;
 	text-transform: none;
 }
 
-  
+#myContent{
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.portfolioContent{
+	height: 850px;
+	/*outline: 1px solid #4169E1;*/
+	padding-left: 375px;
+}
+
+.portfolioHeader {
+	color: $grey;
+	padding: 80px 360px 0 0;
+	height: 115px;
+}
+
+.portfolio{
+	float: left;
+}
+
+nav{
+	float: right;
+	transition: all 0.35s ease;
+}
+
+a {
+	text-decoration: none;
+}
+
+.portfolioHeader nav a {
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 30px;
+	font-weight: bold;
+	padding: 5px 15px;
+	margin-left: 15px;
+	border: 1px solid #fff;
+	transition: all 0.35s ease;
+	color: $grey;
+}
+
+.portfolioHeader nav a:visited {
+	color: $grey;
+}
+
+.portfolioHeader nav a:hover {
+	border: 1px solid $accent;
+	color: $accent;
+}
+
+.portfolioHeader nav a:active {
+	border: 2px solid $accent;
+	color: $accent;
+	padding: 4px 14px;
+}
+
+.portfolioContent table {
+	border: none;
+	width: 1170px;
+	height: 570px;
+	}
+
+.portfolioContent td {
+	border: none;
+	padding: 0;
+	line-height: 0;
+	width: 300px;
+}
+
+.justDefaultSectionContent {
+	background-color: $grey;
+	color: #FFF;
+	padding: 80px 375px;
+}
+
+iframe {
+	float: right;
+	margin-bottom: 80px;
+}
+
+.justDefaultSectionContent h3 {
+	margin-bottom: 50px;
+}
+
+.justDefaultSectionContent p {
+	width: 468px;
+	font-size: 14px;
+}
+
+.justDefaultSectionContent button {
+	border: 2px solid #353F46;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	background-color: $grey;
+}
+
+.justDefaultSectionContent button a {
+	color: #353F46;
+}
+
+.twitter {
+padding: 80px 375px;
+background-color: $accent;
+color: #fff;
+}
+
+.twitter img {
+	float: right;
+}
+
+.twitter p{
+	font-size: 28px;
+	font-weight: 300;
+	margin: 0;
+	line-height:1.75;
+}
+
+.WhoIsContent {
+	height: 305px;
+	width: 1170px;
+	background-image: url("../img/bgPhoto.png");
+	background-repeat: no-repeat;
+	color: #ffffff;
+	padding: 100px 375px;
+}
+
+.WhoIsContent p {
+	margin: 20px 0 30px 0;
+}
+
+.WhoIsTextLeft {
+	float: left;
+	width: 570px;
+}
+
+.WhoIsTextRight {
+	float: right;
+	width: 570px;
+}
+
+.WhoIsTextRight ul {
+	list-style-type: none;
+	padding:0;
+	margin-top: 50px;
+}
+
+.WhoIsTextRight li {
+	border: 2px solid;
+	padding: 10px 15px;
+	margin-right: 15px;
+	display: inline;
+	font-size: 30px;
+}
+
+.TestimonialsContent {
+	padding: 80px 375px;
+	color: $grey
+}
+
+#quotationMark {
+	font-family: Bitter;
+	font-weight: bold;
+	font-size: 72px;
+	float: right;
+	margin: 0;
+}
+
+.walter {
+	color: $accent;
+	font-weight: bold;
+}
+
+.TestimonialsContentText {
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 2;
+}
+
+.contact {
+	background-image: url("../img/contact.png");
+	background-repeat: no-repeat;
+	color: #ffffff;
+	padding: 80px 375px;
+}
+
+.contactText {
+	width: 570px;
+	font-weight: 600;
+	float: right;
+}
+
+.contactText p {
+	margin-bottom: 40px;
+	line-height:1.75;
+}
+
+.contactForm {
+	width: 470px;
+}
+
+.contact h3 {
+	margin-bottom: 40px;
+}
+
+.contactForm p, .message {
+	font-weight: bold;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	margin-top: 36px;
+}
+
+.contact input {
+	background: none;
+	border: 2px solid #ffffff;
+	font-size: 28px;
+	color: #fff;
+	transition: all 0.35s ease;
+	height: 60px;
+	width: 470px;
+}
+
+.contact textarea {
+	background: none;
+	border: 2px solid #ffffff;
+	transition: all 0.35s ease;
+	height: 220px;
+	width: 1170px;
+}
+
+.formFocus:focus {
+	background-color: #fff;
+	border: 2px solid #353F46;
+}
+
+.contact button {
+	margin-top:35px;
+	padding: 0;
+	background-color: $accent;
+	color: #fff;
+	text-transform: uppercase;
+	height: 60px;
+	width: 370px;
+	border: none;
+}
+
+#myFooter {
+	font-size: 12px;
+	font-weight: 600;
+	background-color: #353f47;
+	color: $grey;
+	padding: 80px 375px;
+}
+
+#myFooter p {
+	float: right;
+}
+
+#myFooter td {
+	border-left: 1px solid $grey;
+	padding: 0 15px;
+	vertical-align: center;
+}
+
+#myFooter td a {
+	color: $grey;
+}
