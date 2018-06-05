@@ -1,0 +1,37 @@
+.justDefaultSectionContent {
+	background-color: $grey;
+	color: #FFF;
+	padding: 80px 0;
+	.wrapper {
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+
+iframe {
+	float: right;
+	margin-bottom: 80px;
+}
+
+.justDefaultSectionContent h3 {
+	margin-bottom: 50px;
+}
+
+.justDefaultSectionContent p {
+	width: 468px;
+	font-size: 14px;
+}
+
+.justDefaultSectionContent button {
+	border: 2px solid #353F46;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	background-color: $grey;
+}
+
+.justDefaultSectionContent button a {
+	color: #353F46;
+}

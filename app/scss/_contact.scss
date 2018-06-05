@@ -1,0 +1,72 @@
+.contact {
+	background-image: url("../img/contact.png");
+	background-repeat: no-repeat;
+	color: #ffffff;
+	padding: 80px 0;
+	.wrapper {
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+
+.contactText {
+	font-size: 14px;
+	width: 570px;
+	font-weight: 600;
+	float: right;
+}
+
+.contactText p {
+	margin-bottom: 30px;
+	line-height:1.75;
+}
+
+.contactForm {
+	width: 470px;
+}
+
+.contact h3 {
+	margin-bottom: 40px;
+}
+
+.contactForm p, .message {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	margin-top: 36px;
+}
+
+.contact input {
+	background: none;
+	border: 2px solid #ffffff;
+	font-size: 28px;
+	color: #fff;
+	transition: all 0.35s ease;
+	height: 60px;
+	width: 470px;
+}
+
+.contact textarea {
+	background: none;
+	border: 2px solid #ffffff;
+	transition: all 0.35s ease;
+	height: 220px;
+	width: 1170px;
+}
+
+.formFocus:focus {
+	background-color: #fff;
+	border: 2px solid #353F46;
+}
+
+.contact button {
+	margin-top:35px;
+	padding: 0;
+	background-color: $accent;
+	color: #fff;
+	text-transform: uppercase;
+	height: 60px;
+	width: 370px;
+	border: none;
+}

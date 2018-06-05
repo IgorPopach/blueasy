@@ -1,0 +1,91 @@
+.portfolioContent{
+	height: 850px;
+	/*outline: 1px solid #4169E1;*/
+	// padding-left: 375px;
+	.wrapper {
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+
+.portfolioHeader {
+	color: $grey;
+	padding: 80px 0 0 0;
+	height: 115px;
+}
+
+.portfolio{
+	float: left;
+}
+
+nav{
+	float: right;
+	transition: all 0.35s ease;
+}
+
+a {
+	text-decoration: none;
+}
+
+.portfolioHeader nav a {
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 30px;
+	font-weight: bold;
+	padding: 5px 15px;
+	margin-left: 15px;
+	border: 1px solid #fff;
+	transition: all 0.35s ease;
+	color: $grey;
+}
+
+.portfolioHeader nav a:visited {
+	color: $grey;
+}
+
+.portfolioHeader nav a:hover {
+	border: 1px solid $accent;
+	color: $accent;
+}
+
+.portfolioHeader nav a:active {
+	border: 2px solid $accent;
+	color: $accent;
+	padding: 4px 14px;
+}
+
+.portfolioContent table {
+	border: none;
+	width: 1170px;
+	height: 570px;
+	margin: 0 auto;
+	}
+
+.portfolioContent table tr td {
+	position: relative;
+	border: none;
+	padding: 0;
+	line-height: 0;
+	width: 270px;
+}
+
+.plus {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		color: #fff;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		line-height: 270px;
+		font-size: 40px;
+		background-color: transparentize($grey, 0.15);
+		vertical-align: middle;
+		display: none;
+	}
+
+.portfolioContent td:hover .plus {
+	display: block;
+	}

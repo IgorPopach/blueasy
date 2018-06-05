@@ -1,0 +1,20 @@
+.twitter {
+	padding: 80px 0;
+	background-color: $accent;
+	color: #fff;
+	.wrapper {
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+
+.twitter img {
+	float: right;
+}
+
+.twitter p{
+	font-size: 28px;
+	font-weight: 300;
+	margin: 0;
+	line-height:1.75;
+}

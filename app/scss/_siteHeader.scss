@@ -1,0 +1,85 @@
+.siteHeader {
+	min-width: 1170px;
+	background-image: url("../img/top-bg.jpg");
+	background-repeat: no-repeat;
+	text-transform: uppercase;
+	color: #ffffff;
+	/*outline: 1px solid #4169E1;*/
+}
+
+.mainHeader nav a {
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 30px;
+	font-weight: bold;
+	padding: 5px 15px;
+	margin-left: 15px;
+	border: 1px solid #fff transparent;
+	transition: all 0.35s ease;
+	color: #fff;
+}
+
+.mainHeader nav a:visited {
+	color: #fff;
+}
+
+.mainHeader nav a:hover {
+	border: 1px solid $accent;
+	color: $accent;
+}
+
+.mainHeader nav a:active {
+	border: 2px solid $accent;
+	color: $accent;
+	padding: 4px 14px;
+}
+
+.mainHeader {
+	height: 30px;
+	background-color: $grey;
+	opacity: 0.85;
+	font-weight: bold;
+	padding: 60px 0;
+	.wrapper {
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+
+.blueasy {
+	float: left;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	line-height: 30px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h1 span {
+	color: $accent;
+}
+
+.mainText {
+	margin-top: 250px;
+	height: 400px;
+	font-size: 56px;
+	font-weight: 300;
+	text-align: center;
+	
+}
+
+h2 {
+	font-size: 42px;
+	font-weight: 300;
+	margin: 0;
+	line-height:1.5;
+}
+
+h2 span {
+	background-color: $grey;
+	padding: 0 25px;
+	opacity: 0.85;
+}

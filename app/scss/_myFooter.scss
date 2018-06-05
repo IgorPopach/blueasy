@@ -1,11 +1,13 @@
-
-
 #myFooter {
 	font-size: 12px;
 	font-weight: 600;
 	background-color: #353f47;
 	color: $grey;
-	padding: 80px 375px;
+	padding: 80px 0;
+	.wrapper {
+		width: 1170px;
+		margin: 0 auto;
+	}
 }
 
 #myFooter p {

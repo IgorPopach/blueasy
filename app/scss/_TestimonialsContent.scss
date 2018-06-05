@@ -1,0 +1,27 @@
+.TestimonialsContent {
+	padding: 80px 0;
+	color: $grey;
+	.wrapper {
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+
+#quotationMark {
+	font-family: Bitter;
+	font-weight: bold;
+	font-size: 72px;
+	float: right;
+	margin: 0;
+}
+
+.walter {
+	color: $accent;
+	font-weight: bold;
+}
+
+.TestimonialsContentText {
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 2;
+}
